@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcome to cocoa talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--link:css 단축키-->
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>81%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!--fa-lg  = 아이콘 더 크게 만들어줌-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1>Welcome to Cocoatalk</h1>
+      <p>
+        if you have a Cocoa Account, lod in with your email or phone number.
+      </p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="password" />
+      <input type="submit" placeholder="Log in" />
+      <a href="#">Find Cocoa Account or Password</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/60a21b9475.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

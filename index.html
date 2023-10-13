@@ -24,16 +24,21 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1>Welcome to Cocoatalk</h1>
-      <p>
-        if you have a Cocoa Account, lod in with your email or phone number.
+      <h1 class="header__title">Welcome to CocoaTalk</h1>
+      <p class="header__text">
+        if you have a Cocoa Account, log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="password" />
-      <input type="submit" placeholder="Log in" />
-      <a href="#">Find Cocoa Account or Password</a>
+    <form class="login-form">
+      <input
+        class="login-form__input"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input class="login-form__input" type="password" placeholder="password" />
+      <input class="login-form__btn" type="submit" value="Log in" />
+      <input class="login-form__btn" type="submit" value="Sign up" />
+      <a class="login-form__link" href="#">Find Cocoa Account or Password</a>
     </form>
     <script
       src="https://kit.fontawesome.com/60a21b9475.js"

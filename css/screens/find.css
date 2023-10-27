@@ -1,0 +1,136 @@
+.find__main-screen {
+  padding: 20px 20px 0px 20px;
+}
+.find__main-screen2 {
+  padding: 5px 20px 0px 20px;
+}
+
+.recommended-friends {
+  padding: 25px 20px 40px 20px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.recommended-friedns__title {
+  font-size: 14px;
+  color: var(--sexygrey);
+}
+
+.recommended-friends span {
+  margin: 85px 0px;
+  display: block;
+  text-align: center;
+  color: #0000004d;
+}
+.find__open-chat {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.find__open-chat__column:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.find__open-chat__column__column {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  position: relative;
+  left: -5px;
+}
+.find__open-chat__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.4;
+  font-size: 15px;
+}
+.find__open-chat__text span {
+  opacity: 0.6;
+}
+.find__open-chat__subtext {
+  margin-top: 30px;
+}
+.find__open-chat__subtitle {
+  font-size: 18px;
+}
+.find__open-chat__subtext__info {
+  opacity: 0.4;
+  margin-top: 5px;
+}
+.find__open-chat__story {
+  display: flex;
+  justify-content: space-between;
+}
+.find__open-chat__column {
+  display: flex;
+  align-items: center;
+}
+
+.find__open-chat__column img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.divider {
+  height: 15px;
+  width: 2px;
+  background-color: black;
+  opacity: 0.2;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.find__open-chat__members__span {
+  opacity: 0.3;
+  font-size: 14px;
+}
+.find__open-chat__members-active {
+  color: rgb(255 117 201);
+  font-size: 15px;
+}
+.find__open-chat__column__main-img {
+  position: relative;
+}
+.find__open-chat__column__main-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.find__open-chat__column__count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 25px;
+  right: 12px;
+  font-size: 11px;
+  height: 20px;
+  width: 50px;
+}
+.find__open-chat__column__count span {
+  margin-left: 3px;
+}
+@keyframes heartbeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.4);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+.find__open-chat__column:hover i {
+  will-change: transform;
+  animation: heartbeat 1.5s linear infinite;
+}

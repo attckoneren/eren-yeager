@@ -1,0 +1,27 @@
+.settings-screen {
+  margin-bottom: 40px;
+}
+.settings__content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings__content__column {
+  padding-left: 25px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.settings__content__column i {
+  opacity: 0.7;
+}
+
+.settings__content__column__text {
+  font-size: 19px;
+  margin-left: 15px;
+}
+.right-text {
+  position: absolute;
+  right: 20px;
+  opacity: 0.5;
+}

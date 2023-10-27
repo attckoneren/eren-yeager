@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frinds-cocoa talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--link:css 단축키-->
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>81%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!--fa-lg  = 아이콘 더 크게 만들어줌-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icon">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+    <a id="friends-display">
+      <i class="fa-solid fa-circle-info"></i>Friends' Names Display<i
+        class="fa-solid fa-chevron-right fa-xs"
+      ></i
+    ></a>
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="https://i.namu.wiki/i/Y10_MpxcyYJEojJFDblyBIzvr6TOiTcOW4gBiW5hsy1Gdn6ju4flXD-KXanpClCSHqOswjFFEIglRVArpzeUcw.webp"
+          />
+          <div class="user-component__text">
+            <f4 class="user-component__title">Eren Yearer</f4>
+          </div>
+          <!--<h6 class="user-component__subtitle">I am Eren Yeager</h6>-->
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="https://blog.kakaocdn.net/dn/bsVagE/btqTcRoHcOb/y8EdN4PcDkRTzsrwv7uHb1/img.jpg"
+            />
+            <div class="user-component__text">
+              <f4 class="user-component__title--not-bold">Channel</f4>
+            </div>
+          </div>
+          <div class="user-component__column--last">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main class="friends-screen">
+      <div class="friends-screen__channel-header">
+        <span>Friends</span>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--sm"
+            src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.namu.wiki%2Fi%2FJo6V6B_Bp9nAOEZe5X79wjb5LiKBFQDZ-oxmkwlE2ASixiNQ3EEviaMXGxRlanMKP2cPLyrViwM5FMCvGSWSmg.webp&type=sc960_832"
+          />
+          <div class="user-component__text">
+            <f4 class="user-component__title--not-bold">Mikasa Ackerman </f4>
+          </div>
+          <!--<h6 class="user-component__subtitle">I am Eren Yeager</h6>-->
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--sm"
+            src="https://static.myfigurecollection.net/upload/entries/1/48285-f5344.jpg"
+          />
+          <div class="user-component__text">
+            <f4 class="user-component__title--not-bold">Armin Arlert </f4>
+          </div>
+          <!--<h6 class="user-component__subtitle">I am Eren Yeager</h6>-->
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--sm"
+            src="https://mblogthumb-phinf.pstatic.net/20140917_239/akckglzh_1410943815112V8fbY_JPEG/%C0%E5_%C5%B0%B8%A3%BD%B4%C5%B8%C0%CE.jpg?type=w420"
+          />
+          <div class="user-component__text">
+            <f4 class="user-component__title--not-bold">Jean Kirstein </f4>
+          </div>
+        </div>
+        <!--<h6 class="user-component__subtitle">I am Eren Yeager</h6>-->
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--sm"
+            src="https://i.namu.wiki/i/sQvSmVl3xla1olYzD7h4X_md8vEGv6SoiVeXGVralO3EbNWwTY1EZ2GVXkt5xO6J_2Xmxr8U7Uw-5ofFdufCcA.webp"
+          />
+          <div class="user-component__text">
+            <f4 class="user-component__title--not-bold">Levi Ackerman </f4>
+          </div>
+        </div>
+        <!--<h6 class="user-component__subtitle">I am Eren Yeager</h6>-->
+      </div>
+    </main>
+
+    <nav class="nav">
+      <!--nav>ul>li*n>a-->
+      <ul class="nav__list">
+        <li class="btn">
+          <a class="nav__icon" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="chats.html"
+            ><i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+          <span class="chat-badge">7</span>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+          <span class="nav__notification2"></span>
+        </li>
+      </ul>
+    </nav>
+    <div class="splash-screen">
+      <i class="fa-solid fa-comment fa-2x"></i>
+    </div>
+
+    <div class="media-query">Your screen is too big</div>
+
+    <script
+      src="https://kit.fontawesome.com/60a21b9475.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

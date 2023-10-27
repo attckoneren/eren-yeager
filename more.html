@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>more-cocoa talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--link:css 단축키-->
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>81%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!--fa-lg  = 아이콘 더 크게 만들어줌-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">more</h1>
+      <div class="screen-header__icon">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span
+          ><span class="find__badge"></span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="https://i.namu.wiki/i/Y10_MpxcyYJEojJFDblyBIzvr6TOiTcOW4gBiW5hsy1Gdn6ju4flXD-KXanpClCSHqOswjFFEIglRVArpzeUcw.webp"
+          />
+          <div class="user-component__text">
+            <f4 class="user-component__title">Eren Yearer</f4>
+
+            <h6 class="user-component__subtitle">
+              +1 613-449-6146<i class="fa-solid fa-circle-exclamation"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+      <div class="more-content">
+        <div class="icon-row">
+          <div class="icon-row-icons">
+            <div class="icon-row-icons__icon">
+              <i class="fa-regular fa-calendar-check"></i><span>Calender</span>
+            </div>
+            <div class="icon-row-icons__icon">
+              <i class="fa-regular fa-hard-drive"></i><span>Talk Drive</span>
+            </div>
+            <div class="icon-row-icons__icon">
+              <i class="fa-regular fa-face-smile"></i><span>Emoticons</span>
+            </div>
+            <div class="icon-row-icons__icon">
+              <i class="fa-solid fa-brush"></i><span>Themes</span>
+            </div>
+          </div>
+
+          <div class="icon-row">
+            <div class="icon-row-icons">
+              <div class="icon-row-icons__icon">
+                <i class="fa-solid fa-file-invoice-dollar"></i
+                ><span>Account</span>
+              </div>
+              <div class="icon-row-icons__icon last-icon">
+                <i class="fa-regular fa-comments"></i><span>Openchat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h6 class="more-suggestions__title">Suggestions</h6>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-img">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icons__text">Titan's Story</span>
+          </div>
+
+          <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-img">
+                <i class="fa-solid fa-quote-right"></i>
+              </div>
+              <span class="more-suggestions__icons__text">Titan's Story</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <!--nav>ul>li*n>a-->
+      <ul class="nav__list">
+        <li class="btn">
+          <a class="nav__icon" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+          <span class="chat-badge">7</span>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+          <span class="nav__notification2"></span>
+        </li>
+      </ul>
+    </nav>
+    <div class="media-query">Your screen is too big</div>
+
+    <script
+      src="https://kit.fontawesome.com/60a21b9475.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

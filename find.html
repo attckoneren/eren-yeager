@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>find-cocoa talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--link:css 단축키-->
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>81%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!--fa-lg  = 아이콘 더 크게 만들어줌-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icon">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span
+          ><span class="find__badge"></span
+          ><i class="fa-solid fa-gear fa-lg"></i
+        ></span>
+      </div>
+    </header>
+    <main class="main-screen">
+      <div class="icon-row-icons">
+        <div class="icon-row-icons__icon">
+          <i class="fa-solid fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="icon-row-icons__icon">
+          <i class="fa-regular fa-address-book"></i><span>Add dy Contacts</span>
+        </div>
+        <div class="icon-row-icons__icon">
+          <i class="fa-solid fa-fingerprint"></i><span>Add by Id</span>
+        </div>
+        <div class="icon-row-icons__icon">
+          <i class="fa-regular fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+    </main>
+    <div class="recommended-friends">
+      <h6 class="recommended-friedns__title">Recommended Friends</h6>
+      <span>You have no recommended friends</span>
+    </div>
+    <main class="find__main-screen">
+      <div class="find__open-chat">
+        <div class="find__open-chat__text">
+          <h5 class="find__open-chat__title">Open Chat</h5>
+          <span
+            >Go to Openchat Home<i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </div>
+        <div class="find__open-chat__story">
+          <div class="find__open-chat__column">
+            <div class="find__open-chat__subtext">
+              <h4 class="find__open-chat__subtitle">#Survey Corps</h4>
+              <h5 class="find__open-chat__subtext__info">#erwin#levi#hanji</h5>
+            </div>
+
+            <div class="find__open-chat__column__column">
+              <img
+                src="https://i.namu.wiki/i/bDRZzstnTqzt8Iv-_7-PEmmn8K7YMZSaPbGrjy3h1LnGyOkCdswoJTfFpZw-2n80mcrbp-EO2YDGRPN433RIlQ.webp"
+              />
+              <span class="find__open-chat__members__span">1830 members</span>
+              <div class="divider"></div>
+              <span class="find__open-chat__members-active">Active</span>
+            </div>
+          </div>
+          <div class="find__open-chat__column">
+            <div class="find__open-chat__column__main-img">
+              <img
+                src="https://i.namu.wiki/i/nv9U-7W7OmlMoOkMvZMIpuLZbfb8kHKpUlcbnsbrIopInRklobE0-B2MI8msj-_YC48L7pXVPH5s9sGydHerdQ.webp"
+              />
+              <div class="find__open-chat__column__count">
+                <i class="fa-solid fa-heart"></i>
+                <span>1320</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main class="find__main-screen2">
+      <div class="find__open-chat">
+        <div class="find__open-chat__story">
+          <div class="find__open-chat__column">
+            <div class="find__open-chat__subtext">
+              <h4 class="find__open-chat__subtitle">#Eren Yeager</h4>
+              <h5 class="find__open-chat__subtext__info">
+                #titan#hero or devil?
+              </h5>
+            </div>
+
+            <div class="find__open-chat__column__column">
+              <img
+                src="https://cdnimage.dailian.co.kr/news/201310/news_1381891991_390444_m_1.jpg"
+              />
+              <span class="find__open-chat__members__span">493 members</span>
+              <div class="divider"></div>
+              <span class="find__open-chat__members-active">Active</span>
+            </div>
+          </div>
+          <div class="find__open-chat__column">
+            <div class="find__open-chat__column__main-img">
+              <img
+                src="https://i.namu.wiki/i/n-MlALnUoit0CooPITl56QOY5ppD5ewpugfX5hGqqmxkEYwyKKQsqtR-ScAIDRyCezFThKs7z1RK2HW-JzV27g.webp"
+              />
+              <div class="find__open-chat__column__count">
+                <i class="fa-solid fa-heart"></i>
+                <span>330</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <!--nav>ul>li*n>a-->
+      <ul class="nav__list">
+        <li class="btn">
+          <a class="nav__icon" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+          <span class="chat-badge">7</span>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+          <span class="nav__notification2"></span>
+        </li>
+      </ul>
+    </nav>
+    <div class="media-query">Your screen is too big</div>
+
+    <script
+      src="https://kit.fontawesome.com/60a21b9475.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

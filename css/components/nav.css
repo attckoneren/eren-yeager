@@ -1,0 +1,53 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+  display: flex;
+  align-items: flex-end;
+}
+.nav__icon {
+  position: relative;
+  color: #5b5f62;
+}
+.nav__notification2 {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 50px;
+}
+.btn {
+  position: relative;
+  animation: navapper 1s ease-in-out forwards;
+  transform: translateY(60px);
+}
+.friends-screen .btn {
+}
+@keyframes navapper {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.btn:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.btn:nth-child(3) {
+  animation-delay: 1s;
+}
+.btn:last-child {
+  animation-delay: 1.5s;
+}

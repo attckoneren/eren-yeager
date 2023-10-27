@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settings-cocoa talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--link:css 단축키-->
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>81%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!--fa-lg  = 아이콘 더 크게 만들어줌-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"> <i class="fa-solid fa-chevron-left fa-xl"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      </div>
+    </header>
+    <main class="settings-screen">
+      <ul class="settings__content">
+        <li class="settings__content__column">
+          <i class="fa-solid fa-bullhorn fa-xl"></i>
+          <span class="settings__content__column__text">Notices</span>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-flask fa-xl"></i>
+          <span class="settings__content__column__text">KaKao Lab</span>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-circle-exclamation fa-xl"></i>
+          <span class="settings__content__column__text">Version</span>
+          <span class="settings__content__column__text right-text"
+            >Latest Version</span
+          >
+        </li>
+      </ul>
+    </main>
+    <main class="settings-screen">
+      <ul class="settings-__content">
+        <li class="settings__content__column">
+          <i class="fa-solid fa-lock fa-xl"></i>
+          <span class="settings__content__column__text">Privacy</span>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-bell fa-xl"></i>
+          <span class="settings__content__column__text">Notifications</span>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-user fa-xl"></i>
+          <span class="settings__content__column__text">Friends</span>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-comment fa-xl"></i>
+          <span class="settings__content__column__text">Chats</span>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-display fa-xl"></i>
+          <span class="settings__content__column__text">Display</span>
+          <div class="settings-content__badge">N</div>
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-brush fa-xl"></i>
+          <span class="settings__content__column__text">Themes</span>
+          <div class="settings-content__badge">N</div>
+          <span class="settings__content__column__text right-text"
+            >Default Theme</span
+          >
+        </li>
+        <li class="settings__content__column">
+          <i class="fa-solid fa-phone fa-xl"></i>
+          <span class="settings__content__column__text">Call</span>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <!--nav>ul>li*n>a-->
+      <ul class="nav__list">
+        <li class="btn">
+          <a class="nav__icon" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+          <span class="chat-badge">7</span>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="btn">
+          <a class="nav__icon" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+          <span class="nav__notification2"></span>
+        </li>
+      </ul>
+    </nav>
+    <div class="media-query">Your screen is too big</div>
+
+    <script
+      src="https://kit.fontawesome.com/60a21b9475.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

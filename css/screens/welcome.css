@@ -35,6 +35,7 @@
 
 .login-form__btn {
   cursor: pointer;
+  font-size: 14px;
   background-color: var(--yellow);
   border-radius: 5px;
   padding: 20px;
@@ -46,4 +47,8 @@
   text-decoration: none;
   color: inherit;
   font-size: 15px;
+}
+.go-friends {
+  display: flex;
+  flex-direction: column;
 }

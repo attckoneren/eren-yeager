@@ -1,34 +1,27 @@
 .user-component__subtitle i {
   margin-left: 5px;
 }
-
-.more-screen .icon-row {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin-top: 20px;
-}
-.icon-row-icons {
-  width: 100%;
-}
-.more-screen .icon-row-icons__icon {
-  margin-bottom: 35px;
-  width: 80px;
-  display: flex;
-}
-.more-screen .icon-row:last-child {
-  display: flex;
-  align-items: start;
-}
-.last-icon {
-  margin-left: 37px;
-}
-
 .more-content {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+.icon-row:first-child {
+  margin-bottom: 40px;
+}
+.icon-row:first-child {
+  position: relative;
 }
 
+.icon-row-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.more-content__last-icon {
+  position: absolute;
+  left: 120px;
+}
 .more-suggestions {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 20px;

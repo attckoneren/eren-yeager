@@ -12,13 +12,16 @@
   width: 100%;
 }
 .more-screen .icon-row-icons__icon {
-  width: 110px;
   margin-bottom: 35px;
+  width: 80px;
   display: flex;
 }
 .more-screen .icon-row:last-child {
   display: flex;
-  align-items: flex-start;
+  align-items: start;
+}
+.last-icon {
+  margin-left: 37px;
 }
 
 .more-content {

@@ -1,12 +1,13 @@
 .alt-header {
   display: flex;
-  margin: 20px 20px 35px 20px;
+  margin: 50px 20px 35px 20px;
 }
 
 .alt-header__title {
   font-size: 20px;
   font-weight: 600;
 }
+
 .alt-header__column {
   width: 33%;
 }
@@ -15,8 +16,11 @@
 }
 .alt-header__column:nth-child(2) {
   text-align: center;
+}
+.margin {
   margin-right: 40px;
 }
+
 .alt-header__column:last-child {
   margin-left: auto;
   display: flex;
@@ -25,4 +29,7 @@
 .alt-header__last-i {
   margin-left: 30px;
   margin-right: 35px;
+}
+.chat-header {
+  margin-top: 20px;
 }

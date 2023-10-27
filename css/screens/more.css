@@ -8,9 +8,13 @@
   flex-direction: column;
   margin-top: 20px;
 }
+.icon-row-icons {
+  width: 100%;
+}
 .more-screen .icon-row-icons__icon {
-  width: 115px;
+  width: 110px;
   margin-bottom: 35px;
+  display: flex;
 }
 .more-screen .icon-row:last-child {
   display: flex;

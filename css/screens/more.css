@@ -8,20 +8,15 @@
   padding-bottom: 25px;
 }
 .icon-row:first-child {
-  margin-bottom: 40px;
-}
-.icon-row:first-child {
-  position: relative;
+  margin-bottom: 50px;
 }
 
 .icon-row-icons {
   display: flex;
   justify-content: space-between;
+  width: 440px;
 }
-.more-content__last-icon {
-  position: absolute;
-  left: 120px;
-}
+
 .more-suggestions {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-top: 20px;

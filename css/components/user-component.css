@@ -28,8 +28,8 @@
 }
 .user-component__avatar--xl {
   width: 65px;
-  height: 70px;
-  border-radius: 27px;
+  height: 65px;
+  border-radius: 24px;
 }
 .user-component__avatar--sm {
   width: 55px;

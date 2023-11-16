@@ -1,5 +1,6 @@
 .alt-header {
   display: flex;
+  align-items: center;
   margin: 50px 20px 35px 20px;
 }
 

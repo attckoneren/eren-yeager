@@ -117,6 +117,7 @@
   border: none;
   font-size: 18px;
   border-radius: 15px;
+  padding-left: 15px;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {

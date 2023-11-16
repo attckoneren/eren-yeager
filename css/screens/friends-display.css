@@ -30,7 +30,7 @@
 }
 .splash-screen {
   background-color: var(--yellow);
-  height: 124vh;
+  height: 140vh;
   width: 97vw;
   position: absolute;
   top: 0;
@@ -43,7 +43,7 @@
 }
 .splash-screen i {
   position: relative;
-  top: -85px;
+  top: -155px;
 }
 @keyframes hideSplash-screen {
   from {

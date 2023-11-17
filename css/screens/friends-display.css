@@ -30,7 +30,7 @@
 }
 .splash-screen {
   background-color: var(--yellow);
-  height: 140vh;
+  height: 160vh;
   width: 97vw;
   position: absolute;
   top: 0;
@@ -42,9 +42,10 @@
   animation-delay: 1s;
 }
 .splash-screen i {
-  position: relative;
-  top: -155px;
+  position: absolute;
+  top: 45vh;
 }
+
 @keyframes hideSplash-screen {
   from {
     opacity: 1;

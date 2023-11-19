@@ -43,7 +43,7 @@
 }
 .splash-screen i {
   position: absolute;
-  top: 45vh;
+  top: 40vh;
 }
 
 @keyframes hideSplash-screen {

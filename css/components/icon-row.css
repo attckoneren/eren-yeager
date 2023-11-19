@@ -15,3 +15,6 @@
   width: 70px;
   text-align: center;
 }
+.icon-row-icons__icon:nth-child(2) span {
+  line-height: 20px;
+}

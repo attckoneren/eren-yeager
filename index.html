@@ -31,21 +31,48 @@
     </header>
     <form class="login-form">
       <input
+        required
         class="login-form__input"
         type="text"
         placeholder="Email or phone number"
       />
-      <input class="login-form__input" type="password" placeholder="password" />
+      <input
+        required
+        class="login-form__input"
+        type="password"
+        placeholder="password"
+      />
 
-      <input class="login-form__btn" type="submit" value="Log in" />
+      <input
+        class="login-form__btn"
+        type="submit"
+        value="Log in"
+        onclick="redirectToLink(event)"
+      />
+
       <input class="login-form__btn" type="submit" value="Sign up" />
 
-      <a class="login-form__link" href="friends.html"
-        >Find Cocoa Account or Password</a
-      >
+      <a class="login-form__link" href="#">Find Cocoa Account or Password</a>
     </form>
 
     <div class="media-query">Your screen is too big</div>
+
+    <script>
+      function redirectToLink(e) {
+        e.preventDefault();
+        const emailInput = document.querySelector(
+          '.login-form__input[type="text"]'
+        );
+        const passwordInput = document.querySelector(
+          '.login-form__input[type="password"]'
+        );
+        if (emailInput.value && passwordInput.value) {
+          window.location.href = "friends.html";
+        } else {
+          alert("Please fill in both email/phone and password");
+        }
+      }
+    </script>
     <script
       src="https://kit.fontawesome.com/60a21b9475.js"
       crossorigin="anonymous"
